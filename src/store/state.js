@@ -1,0 +1,22 @@
+export default {
+  playlistName: "Playlist",
+  songs: [],
+  showPlaylist: false,
+  showFavourities: false,
+  showPlaylistPropertise: false,
+  showPlayingMusics: false,
+  showPlayingSongPropertises: false,
+  revealProperties: false,
+  currentSong: {},
+  current: null,
+  songPropertise: null,
+  index: 0,
+  player: new Audio(),
+  isPlaying: false,
+  repeatSong: false,
+  playRandomSong: false,
+  loading: false,
+  notificationMessage: "",
+  showNotificationMessage: false,
+
+};
